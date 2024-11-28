@@ -1,20 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Refatorando</title>
-    <link rel="icon" href="https://cache.refatorando.com/wp-content/uploads/2023/05/Favicon_Refatorando-1-100x100.png" type="image/x-icon">
+    <title>Página de Login</title>
     <link rel="stylesheet" href="./public/css/styles.css">
 </head>
 <body>
-    <main>
-        <section class="section-left">
-
+    <main class="login-container">
+        <!--*****-->
+        <section class="login-image">
+            <h1>Bem-vindo de Volta</h1>
+            <p>Faça login para continuar</p>
         </section>
-        <section class="section-right">
+        <!--*****-->
+        <section class="login-form">
+            <div class="form-wrapper">
+                <div class="form-header">
+                    <img src="./public/images/svg-logo.svg" alt="Logo">
+                    <h2>Logo</h2>
+                </div>
 
+                <form class="login-section">
+                    <h3>Faça seu login</h3>
+                    
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="password" placeholder="Senha" required>
+                    
+                    <a href="#" class="forgot-password">Esqueci minha senha</a>
+                    
+                    <button type="submit" class="login-btn">Entrar</button>
+                    
+                    <div class="divider">
+                        <hr>
+                        <p>ou faça seu login com</p>
+                        <hr>
+                    </div>
+                    
+                    <button type="button" class="google-login">
+                        <img src="./public/images/google.svg" alt="Google Icon">
+                        Sign in with Google
+                    </button>
+                    
+                    <p class="signup">
+                        Não tem uma conta? <a href="#">Inscreva-se</a>
+                    </p>
+                </form>
+            </div>
         </section>
+        <!--*****-->
     </main>
 </body>
 </html>
