@@ -1,4 +1,4 @@
-# Project Login
+# Projeto Login
 
 Projeto em HTML e CSS, criado para dar os primeiros passos no desenvolvimento web. O foco foi entender a estrutura básica do HTML, aplicar estilos simples com CSS e praticar a criação de um layout estático. Um marco inicial na minha jornada de aprendizado!"  
 
